@@ -1,0 +1,47 @@
+.Subsecribe {
+  margin-top: 230px;
+  height: 220px;
+}
+
+.Subsecribe h1 {
+  text-transform: capitalize;
+  font-size: 39px;
+}
+
+.Subsecribe input[type="text"] {
+  width: 80%;
+  margin-top: 28px;
+}
+.Subsecribe button {
+  background-color: rgb(206, 110, 32);
+  border: none;
+  color: white;
+  text-transform: capitalize;
+  margin-top: 14px;
+}
+
+.Subsecribe button:hover {
+  background-color: rgb(156, 84, 25);
+  transition: all 0.7s;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA QUERY~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*@media (max-width: 575.98px) */
+@media (max-width: 575.98px) {
+  .Subsecribe {
+    margin-top: 600px;
+    margin-bottom: 100px;
+  }
+
+  .Subsecribe h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .Subsecribe p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .Subsecribe button {
+    margin-left: 130px;
+  }
+}

@@ -1,0 +1,50 @@
+/* home/products */
+.Products h1 {
+  background-color: rgb(206, 110, 32);
+}
+.Products h1 .activeProducts {
+  color: rgb(218, 205, 205);
+  text-decoration: none;
+}
+.Products h1 .activeProducts:hover {
+  color: rgb(255, 249, 245);
+}
+
+.products-items-categeory {
+  margin-top: 80px;
+}
+
+/* buttons to display way */
+.Products .buttons {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 20px;
+}
+
+.Products .buttons button {
+  background: transparent;
+  border: 1px solid rgb(206, 110, 32);
+  margin-left: 10px;
+  color: gray;
+}
+
+.Products .buttons h5 {
+  color: gray;
+  padding-top: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  width: 100%;
+  display: none;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA QUERY~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*@media (max-width:575.98px) */
+@media (max-width: 575.98px) {
+  .Products h1 {
+    font-size: 20px;
+    margin-bottom: -120px;
+  }
+  .Products h1 .activeProducts {
+    margin-left: -170px;
+    font-size: 20px;
+  }
+}
